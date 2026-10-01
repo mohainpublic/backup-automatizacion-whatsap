@@ -1,0 +1,22 @@
+# dependencias
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# runtime — nunca subir a git
+auth/
+data/
+
+# entorno — contiene claves reales
+.env.local
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*
